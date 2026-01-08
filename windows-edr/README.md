@@ -14,7 +14,7 @@ La création d’un utilisateur est surveillée.
 ## Modification de privilèges
 L’ajout au groupe Administrators est détecté.
 
-![Ajout administrateur](../screenshots/admin-group.png)
+![Ajout administrateur](../screenshots/dmin-group.png)
 
 ## Statistiques
 Vue globale des événements Windows Security.
