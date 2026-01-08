@@ -14,7 +14,7 @@ Les alertes “authentication failed” sont générées.
 ## Élévation de privilèges
 Les actions sudo sont tracées.
 
-![Élévation de privilèges](../screenshots/sudo-events.png)
+![Élévation de privilèges](../screenshots/reudo-events.png)
 
 ## File Integrity Monitoring
 La modification du fichier /etc/passwd
