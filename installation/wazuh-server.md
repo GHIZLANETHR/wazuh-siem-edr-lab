@@ -1,22 +1,23 @@
 # Installation du serveur Wazuh
 
-## Environnement
-- Cloud : AWS Learner Lab
-- Instance : EC2
-- OS : Ubuntu 22.04 LTS
+## Installation
+Le serveur Wazuh a été installé en mode **All-in-One**
+à l’aide du script officiel.
 
-## Mode d’installation
-Le serveur Wazuh est installé en mode **All-in-One**,
-incluant :
-- wazuh-manager
-- wazuh-indexer
-- wazuh-dashboard
+![Installation du serveur Wazuh](../screenshots/wazuh-install.png)
 
-## Commande d’installation
-L’installation est effectuée via le script officiel Wazuh :
+À l’issue de l’installation, les informations d’accès
+au Dashboard sont générées automatiquement.
 
-```bash
-curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash wazuh-install.sh -a
-<img width="945" height="561" alt="image" src="https://github.com/user-attachments/assets/f4fc7585-bc26-4fc5-b3cf-adcbbfb7444a" />
+![Fin de l’installation](../screenshots/wazuh-install-end.png)
 
+## Accès à la plateforme
+Le Dashboard Wazuh permet de visualiser les alertes
+et l’état des agents.
+
+![Plateforme Wazuh](../screenshots/wazuh-dashboard.png)
+
+## Vérification des services
+Les services critiques ont été vérifiés avec succès.
+
+![Vérification des services](../screenshots/installation/wazuh-services.png)
