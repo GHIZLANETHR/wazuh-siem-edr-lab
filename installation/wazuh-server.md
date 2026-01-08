@@ -20,4 +20,4 @@ et l’état des agents.
 ## Vérification des services
 Les services critiques ont été vérifiés avec succès.
 
-![Vérification des services](../screenshots/installation/wazuh-services.png)
+![Vérification des services](../screenshots/wazuh-services.png)
